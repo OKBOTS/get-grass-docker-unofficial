@@ -31,5 +31,5 @@ RUN ./${GIT_REPO}/bin/crxdl $EXTENSION_ID
 
 # Install python requirements
 COPY main.py .
-# RUN pip install -r requirements.txt
+RUN pip install -r requirements.txt
 ENTRYPOINT [ "python3", "main.py" ]
