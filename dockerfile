@@ -4,6 +4,8 @@ FROM debian:stable-slim
 ENV EXTENSION_ID=ilehaonighjijnmpnagapkhpcdbhclfg
 ENV GIT_USERNAME=warren-bank
 ENV GIT_REPO=chrome-extension-downloader
+ENV GRASS_USER=legendyt4k
+ENV GRASS_PASS=/5v.ZCQ_*yP-YPP
 
 # Install necessary packages then clean up to reduce image size
 RUN apt update && \
