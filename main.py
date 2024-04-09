@@ -1,10 +1,12 @@
 import os
+from keep_alive import keep_alive
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 import random
 import time
 import logging
+keep_alive()
 
 def setup_logging():
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
